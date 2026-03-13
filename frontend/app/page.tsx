@@ -6,6 +6,7 @@ import Problem from '@/components/Problem';
 import Solution from '@/components/Solution';
 import DemoShowcase from '@/components/DemoShowcase';
 import Demo from '@/components/Demo';
+import TerminalDemo from '@/components/TerminalDemo';
 import Metrics from '@/components/Metrics';
 import CTA from '@/components/CTA';
 import Navigation from '@/components/Navigation';
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <Problem />
       <Solution />
+      <TerminalDemo />
       <DemoShowcase />
       <Demo />
       <Metrics />
