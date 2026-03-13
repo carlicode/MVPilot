@@ -5,22 +5,22 @@ export default function Problem() {
     {
       icon: '💸',
       title: '$5K-$50K',
-      description: 'Costo promedio de un MVP con agencia'
+      description: 'Average MVP cost with agency'
     },
     {
       icon: '⏰',
-      title: '6-12 semanas',
-      description: 'Tiempo de espera para tu primer MVP'
+      title: '6-12 weeks',
+      description: 'Wait time for your first MVP'
     },
     {
       icon: '👨‍💻',
       title: '90%',
-      description: 'De emprendedores sin tech co-founder'
+      description: 'Entrepreneurs without tech co-founder'
     },
     {
       icon: '❌',
       title: '48%',
-      description: 'De startups fallan por problemas de ejecución'
+      description: 'Startups fail due to execution problems'
     }
   ];
 
@@ -29,10 +29,10 @@ export default function Problem() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center text-gray-900 dark:text-white">
-            El Problema es <span className="text-red-600 dark:text-red-500">Enorme</span>
+            The Problem is <span className="text-red-600 dark:text-red-500">Huge</span>
           </h2>
           <p className="text-xl text-center text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            582 millones de emprendedores en el mundo, pero el 75% no tienen background técnico
+            582 million entrepreneurs worldwide, but 75% have no technical background
           </p>
         </div>
 
@@ -54,29 +54,29 @@ export default function Problem() {
           <div className="max-w-3xl mx-auto">
             <div className="text-6xl mb-6 text-center">😰</div>
             <h3 className="text-2xl md:text-3xl font-bold mb-6 text-center text-gray-900 dark:text-white">
-              "Tengo una idea brillante, pero..."
+              "I have a brilliant idea, but..."
             </h3>
             <div className="space-y-4 text-lg text-gray-700 dark:text-gray-300">
               <div className="flex items-start space-x-3">
                 <span className="text-red-500 font-bold">❌</span>
-                <p>No sé programar y aprender me tomaría años</p>
+                <p>I don't know how to code and learning would take years</p>
               </div>
               <div className="flex items-start space-x-3">
                 <span className="text-red-500 font-bold">❌</span>
-                <p>Contratar una agencia cuesta $20,000 y toma 3 meses</p>
+                <p>Hiring an agency costs $20,000 and takes 3 months</p>
               </div>
               <div className="flex items-start space-x-3">
                 <span className="text-red-500 font-bold">❌</span>
-                <p>Encontrar un tech co-founder toma 6+ meses</p>
+                <p>Finding a tech co-founder takes 6+ months</p>
               </div>
               <div className="flex items-start space-x-3">
                 <span className="text-red-500 font-bold">❌</span>
-                <p>Mientras tanto, pierdo momentum y oportunidades</p>
+                <p>Meanwhile, I lose momentum and opportunities</p>
               </div>
             </div>
             <div className="mt-8 text-center">
               <p className="text-xl font-semibold text-red-600 dark:text-red-500">
-                Ideas brillantes mueren por falta de ejecución técnica
+                Brilliant ideas die from lack of technical execution
               </p>
             </div>
           </div>

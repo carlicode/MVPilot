@@ -5,28 +5,28 @@ export default function Solution() {
     {
       icon: '💬',
       name: 'Pitch Agent',
-      description: 'Refina tu idea con conversación AI',
+      description: 'Refines your idea with AI conversation',
       time: '3-5 min',
       color: 'from-blue-500 to-blue-600'
     },
     {
       icon: '💻',
       name: 'Code Agent',
-      description: 'Genera 3,500+ líneas de código',
+      description: 'Generates 3,500+ lines of code',
       time: '10-15 min',
       color: 'from-purple-500 to-purple-600'
     },
     {
       icon: '🚀',
       name: 'Deploy Agent',
-      description: 'Despliega a AWS automáticamente',
+      description: 'Deploys to AWS automatically',
       time: '5-8 min',
       color: 'from-pink-500 to-pink-600'
     },
     {
       icon: '📊',
       name: 'Monitoring Agent',
-      description: 'Dashboards y alertas 24/7',
+      description: 'Dashboards and alerts 24/7',
       time: '2-3 min',
       color: 'from-green-500 to-green-600'
     },
@@ -44,10 +44,10 @@ export default function Solution() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center text-gray-900 dark:text-white">
-            La Solución: <span className="text-brand-500">5 AI Agents</span>
+            The Solution: <span className="text-brand-500">5 AI Agents</span>
           </h2>
           <p className="text-xl text-center text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Tu equipo técnico completo trabajando en paralelo
+            Your complete technical team working in parallel
           </p>
         </div>
 
@@ -76,26 +76,26 @@ export default function Solution() {
           <div className="bg-brand-500 hover:bg-brand-600 rounded-xl p-6 shadow-lg text-white flex flex-col justify-center items-center transition-all">
             <div className="text-5xl mb-4">⚡</div>
             <div className="text-4xl font-bold mb-2">2 days</div>
-            <div className="text-lg opacity-90">Tiempo total</div>
-            <div className="mt-4 text-sm opacity-75">vs. 6-12 semanas tradicional</div>
+            <div className="text-lg opacity-90">Total time</div>
+            <div className="mt-4 text-sm opacity-75">vs. 6-12 weeks traditional</div>
           </div>
         </div>
 
         {/* What You Get */}
         <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 md:p-12 shadow-xl border border-green-200 dark:border-green-800">
           <h3 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">
-            Lo que recibes en 24 minutos
+            What you get in 2 days
           </h3>
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              { icon: '🌐', text: 'MVP live en producción con URL pública' },
-              { icon: '💾', text: 'Código completo en GitHub (3,500+ líneas)' },
-              { icon: '📋', text: 'Proyecto en Jira con 12 tasks organizadas' },
-              { icon: '💬', text: 'Canal de Slack con notificaciones activas' },
-              { icon: '📊', text: 'Dashboard con 13 métricas en tiempo real' },
-              { icon: '☁️', text: '12 servicios AWS configurados y funcionando' },
-              { icon: '🔒', text: 'SSL certificate y dominio custom' },
-              { icon: '📧', text: 'Reportes semanales automáticos por email' }
+              { icon: '🌐', text: 'Live MVP in production with public URL' },
+              { icon: '💾', text: 'Complete code on GitHub (3,500+ lines)' },
+              { icon: '📋', text: 'Jira project with 12 organized tasks' },
+              { icon: '💬', text: 'Slack channel with active notifications' },
+              { icon: '📊', text: 'Dashboard with 13 real-time metrics' },
+              { icon: '☁️', text: '12 AWS services configured and running' },
+              { icon: '🔒', text: 'SSL certificate and custom domain' },
+              { icon: '📧', text: 'Automatic weekly reports via email' }
             ].map((item, index) => (
               <div key={index} className="flex items-start space-x-3">
                 <span className="text-2xl">{item.icon}</span>
