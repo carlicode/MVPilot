@@ -38,30 +38,6 @@ export default function Navigation() {
 
           {/* Right side controls */}
           <div className="flex items-center space-x-4">
-            {/* Language Switcher */}
-            <div className="flex items-center space-x-2 bg-gray-100 dark:bg-mvpilot-gray-panel rounded-lg p-1">
-              <button
-                onClick={() => setLanguage('en')}
-                className={`px-3 py-1 rounded-md text-sm font-medium transition-all ${
-                  language === 'en'
-                    ? 'bg-white dark:bg-mvpilot-black text-gray-900 dark:text-white shadow-sm'
-                    : 'text-mvpilot-gray-text dark:text-mvpilot-gray-text'
-                }`}
-              >
-                🇺🇸 EN
-              </button>
-              <button
-                onClick={() => setLanguage('es')}
-                className={`px-3 py-1 rounded-md text-sm font-medium transition-all ${
-                  language === 'es'
-                    ? 'bg-white dark:bg-mvpilot-black text-gray-900 dark:text-white shadow-sm'
-                    : 'text-mvpilot-gray-text dark:text-mvpilot-gray-text'
-                }`}
-              >
-                🇪🇸 ES
-              </button>
-            </div>
-            
             <ThemeToggle />
             
             <button className="hidden md:block bg-brand-500 hover:bg-brand-600 text-white px-6 py-2 rounded-lg hover:shadow-lg transition-all duration-200 hover:scale-105">
