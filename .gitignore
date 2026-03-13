@@ -1,0 +1,11 @@
+rootkey.csv
+*.csv
+.env
+.env.local
+node_modules/
+.next/
+out/
+dist/
+build/
+.DS_Store
+*.log
